@@ -128,3 +128,48 @@ p.information {
     align-self: flex-end;
     font-weight: 600;
 }
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    color: #F9FAF8;
+}
+
+.content-four {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.content-four > button {
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 4px 24px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.its-time {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text-time > p {
+    margin: 2px;
+}
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
